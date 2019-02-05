@@ -1,4 +1,4 @@
-# Video Canny Edge Detector
+# Appiying Canny Edge Detector on webcam
 Canny Edge detection on video in near real-time.
 This is an implementation of Canny Edge Detection algorithm (http://en.wikipedia.org/wiki/Canny_edge_detector) on video.
 ##### OpenCV and Cuda have been used is this project.
