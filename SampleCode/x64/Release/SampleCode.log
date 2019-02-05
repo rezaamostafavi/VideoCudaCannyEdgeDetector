@@ -1,0 +1,32 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\MyProject\C++\Cuda\VideoCudaCannyEdgeDetector\SampleCode>"E:\Program Files\CUDA_I\SampleCode\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"E:\Program Files\CUDA_I\SampleCode\include" -I"E:\Program Files\CUDA_I\SampleCode\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "F:\MyProject\C++\Cuda\VideoCudaCannyEdgeDetector\SampleCode\kernel.cu" 
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(90): warning : variable "max" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(91): warning : variable "start" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(140): warning : variable "max" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(198): warning : variable "index" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(199): warning : variable "stride" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(254): warning : variable "img_in" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(256): warning : variable "angles" was set but never used
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(90): warning : variable "max" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(91): warning : variable "start" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(140): warning : variable "max" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(198): warning : variable "index" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(199): warning : variable "stride" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(254): warning : variable "img_in" was declared but never referenced
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(256): warning : variable "angles" was set but never used
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(221): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(230): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(232): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+F:/MyProject/C++/Cuda/VideoCudaCannyEdgeDetector/SampleCode/kernel.cu(254): warning C4101: 'img_in': unreferenced local variable
+  main.cpp
+  Generating code
+  Finished generating code
+  SampleCode.vcxproj -> F:\MyProject\C++\Cuda\VideoCudaCannyEdgeDetector\x64\Release\SampleCode.exe
+  SampleCode.vcxproj -> F:\MyProject\C++\Cuda\VideoCudaCannyEdgeDetector\x64\Release\SampleCode.pdb (Full PDB)
+  copy "E:\Program Files\CUDA_I\SampleCode\bin\cudart*.dll" "F:\MyProject\C++\Cuda\VideoCudaCannyEdgeDetector\x64\Release\"
+  E:\Program Files\CUDA_I\SampleCode\bin\cudart32_80.dll
+  E:\Program Files\CUDA_I\SampleCode\bin\cudart64_80.dll
+          2 file(s) copied.

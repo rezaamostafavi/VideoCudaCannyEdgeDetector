@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\MyProject\C++\Cuda\SampleCode\SampleCode>"E:\Program Files\CUDA_I\SampleCode\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"E:\Program Files\CUDA_I\SampleCode\include" -I"E:\Program Files\CUDA_I\SampleCode\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "F:\MyProject\C++\Cuda\SampleCode\SampleCode\kernel.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  SampleCode.vcxproj -> F:\MyProject\C++\Cuda\SampleCode\Debug\SampleCode.exe
+  SampleCode.vcxproj -> F:\MyProject\C++\Cuda\SampleCode\Debug\SampleCode.pdb (Full PDB)
+  copy "E:\Program Files\CUDA_I\SampleCode\bin\cudart*.dll" "F:\MyProject\C++\Cuda\SampleCode\Debug\"
+  E:\Program Files\CUDA_I\SampleCode\bin\cudart32_80.dll
+  E:\Program Files\CUDA_I\SampleCode\bin\cudart64_80.dll
+          2 file(s) copied.
